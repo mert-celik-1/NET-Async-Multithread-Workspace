@@ -12,3 +12,4 @@
 /Users/mertcelik/RiderProjects/NET-Async-Multithread-Workspace/1-Thread-Async/obj/Debug/net8.0/1-Thread-Async.pdb
 /Users/mertcelik/RiderProjects/NET-Async-Multithread-Workspace/1-Thread-Async/obj/Debug/net8.0/1-Thread-Async.genruntimeconfig.cache
 /Users/mertcelik/RiderProjects/NET-Async-Multithread-Workspace/1-Thread-Async/obj/Debug/net8.0/ref/1-Thread-Async.dll
+/Users/mertcelik/RiderProjects/NET-Async-Multithread-Workspace/1-Thread-Async/obj/Debug/net8.0/1-Thread-Async.sourcelink.json

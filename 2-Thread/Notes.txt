@@ -1,0 +1,5 @@
+RACE CONDITIONS NEDIR ?
+Multithread programlama süreçlerinde iki veya daha fazla threadin aynı kaynağa eş zamanlı olarak erişmesi durumunda ortaya çıkan
+istenmeyen durumlardır. Mesela birden çok thread aynı anda bir değişken üzerinde okuma yazma işlemleri gerçekleştiriyorsa
+bu durumda race condition oluşabilir ve bir thread değeri okurken diğer thread ise aynı değeri değiştirebilir ve bu durum
+beklenmeyen sonuçlara yol açabilir.
