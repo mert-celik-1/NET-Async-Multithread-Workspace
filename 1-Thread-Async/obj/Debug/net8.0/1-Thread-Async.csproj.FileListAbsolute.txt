@@ -1,0 +1,14 @@
+/Users/mertcelik/RiderProjects/NET-Async-Multithread-Workspace/1-Thread-Async/bin/Debug/net8.0/1-Thread-Async
+/Users/mertcelik/RiderProjects/NET-Async-Multithread-Workspace/1-Thread-Async/bin/Debug/net8.0/1-Thread-Async.deps.json
+/Users/mertcelik/RiderProjects/NET-Async-Multithread-Workspace/1-Thread-Async/bin/Debug/net8.0/1-Thread-Async.runtimeconfig.json
+/Users/mertcelik/RiderProjects/NET-Async-Multithread-Workspace/1-Thread-Async/bin/Debug/net8.0/1-Thread-Async.dll
+/Users/mertcelik/RiderProjects/NET-Async-Multithread-Workspace/1-Thread-Async/bin/Debug/net8.0/1-Thread-Async.pdb
+/Users/mertcelik/RiderProjects/NET-Async-Multithread-Workspace/1-Thread-Async/obj/Debug/net8.0/1-Thread-Async.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mertcelik/RiderProjects/NET-Async-Multithread-Workspace/1-Thread-Async/obj/Debug/net8.0/1-Thread-Async.AssemblyInfoInputs.cache
+/Users/mertcelik/RiderProjects/NET-Async-Multithread-Workspace/1-Thread-Async/obj/Debug/net8.0/1-Thread-Async.AssemblyInfo.cs
+/Users/mertcelik/RiderProjects/NET-Async-Multithread-Workspace/1-Thread-Async/obj/Debug/net8.0/1-Thread-Async.csproj.CoreCompileInputs.cache
+/Users/mertcelik/RiderProjects/NET-Async-Multithread-Workspace/1-Thread-Async/obj/Debug/net8.0/1-Thread-Async.dll
+/Users/mertcelik/RiderProjects/NET-Async-Multithread-Workspace/1-Thread-Async/obj/Debug/net8.0/refint/1-Thread-Async.dll
+/Users/mertcelik/RiderProjects/NET-Async-Multithread-Workspace/1-Thread-Async/obj/Debug/net8.0/1-Thread-Async.pdb
+/Users/mertcelik/RiderProjects/NET-Async-Multithread-Workspace/1-Thread-Async/obj/Debug/net8.0/1-Thread-Async.genruntimeconfig.cache
+/Users/mertcelik/RiderProjects/NET-Async-Multithread-Workspace/1-Thread-Async/obj/Debug/net8.0/ref/1-Thread-Async.dll

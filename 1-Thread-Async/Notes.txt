@@ -1,0 +1,32 @@
+THREAD NEDİR ?
+- Threadler metotlar gibi program parçacıklarıdır. Bu program parçacıkları sadece belli bir görevi yerine getirdikten
+sonra işini bitirebildikleri gibi programınızın çalıştığı süre boyunca sürekli çalışarakta belli başlı görevleri
+aralıksız yerine getirebilirler. Bir yazılımın oluşturulması sürecinde ilk iş olarak bir thread oluşturulur. Buna ana thread
+denir. Ana thread dışındaki programcı tarafından oluşturulan diğer threadler worker threadlerdir.
+
+- Bir bilgisayar programı bilgisayarın belleğine yüklendiği ve yürütülmeye başlandığında process haline gelir. Thread ise
+bir process içinde yürütülen talimatların dizisidir. Bir işletim sistemi içinde çalışan temel yürütme birimine thread yani
+iş parçacaığı denir.
+
+ASENKRON & SENKRON NEDİR ?
+Asenkron bir işlemin başlatılmasıyla sona ermesi arasıında bir bağımlılığın olmadığı veya bu bağımlılığın zayıf olduğu
+durumu ifade etmektedir. Haliyle askenkron işlemlerde bir işlem sürerken diğer işlemlerin de devam etmesine olanak sağlamaktadır.
+
+Senkron :
+1.Thread AAAABCCC 
+
+1.Thread AAAA
+2.Thread     B
+3.Thread      CCC
+
+Asenkron :
+1.Thread ABCCBCAC
+
+1.Thread AAA
+2.Thread B
+3.Thread CCC
+
+-Asenkron programlamada amaç ana thread'i bloklamadan çalışmasını sağlamaktır. Multithread programlamada ise yapılacak 
+operasyonların birden fazla thread üzerinde eş zamanlı olarak işlenmesidir. Örnek olarak tek bir şefin olduğu bir restoranda
+verilen siparişler birbirlerini beklemeksizin pişirilirken her bir müsterinin birbirinden bağımsız olması Asenkron programlamaya
+örnekken restoranda birden fazla şefin olduğu ve her şefin farklı yemeklerle ilgilenmesi multithreade örnektir
