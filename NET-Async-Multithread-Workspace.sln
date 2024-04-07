@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-Thread-Sync-BlockSync", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-Thread-Sync-Semaphore", "4-Thread-Sync-Semaphore\4-Thread-Sync-Semaphore.csproj", "{11991613-393B-4450-84C9-3241E9016FFC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-Thread-Sync-NonBlock", "5-Thread-Sync-NonBlock\5-Thread-Sync-NonBlock.csproj", "{D45E5257-30E8-49A9-97D9-679020D44FC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{11991613-393B-4450-84C9-3241E9016FFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11991613-393B-4450-84C9-3241E9016FFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11991613-393B-4450-84C9-3241E9016FFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D45E5257-30E8-49A9-97D9-679020D44FC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D45E5257-30E8-49A9-97D9-679020D44FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D45E5257-30E8-49A9-97D9-679020D44FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D45E5257-30E8-49A9-97D9-679020D44FC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

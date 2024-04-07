@@ -1,0 +1,6 @@
+Semaphore ve SemaphoreSlim sınıfları birer senkronizasyon araçlarıdır. Bu araçlar sayesinde kaynaklara olan erişim kontrol edilmekte ve 
+eşzamanlılık sorunlarına karşın manevratik önlemler alınabilmektedir. Belli bir sayıda threade işlem izni verilip.
+Diğer threadler kuyrukta bekliyor. İşleme alınan threadler arasında bekleme sırası yoktur. Bir thread bitiyorsa onun yerine
+kuyruktaki bir thread aktif işlemlere dahil olur.
+
+SemaphpreSlim Semaphore'e göre daha yeni ve hafif bir yapıya sahiptir.
