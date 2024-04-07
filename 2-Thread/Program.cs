@@ -170,7 +170,9 @@ thread2.Start();
 //    }
 //    Console.WriteLine("Thread görevini tamamladı.");
 //});
-
+//thread.Start();
+//Thread.Sleep(5000);
+//stop = true;
 
 //Thread thread = new((cancellationToken) =>
 //{
@@ -187,7 +189,9 @@ thread2.Start();
 //Thread.Sleep(5000);
 //cancellationToken.Cancel();
 #endregion
-#region Interrupt
+#region Interrupt 
+// Bir thread bekleme durumundayken tamamlanmaya zorlayabiliriz.
+// Yada uykuda olan bir threadi uyandırmak ve işlemlerine devam ettirmek amacıyla da kullanabiliriz.
 Thread thread = new(() =>
 {
     try
