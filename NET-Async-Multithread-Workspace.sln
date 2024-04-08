@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-Thread-Sync-Semaphore", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-Thread-Sync-NonBlock", "5-Thread-Sync-NonBlock\5-Thread-Sync-NonBlock.csproj", "{D45E5257-30E8-49A9-97D9-679020D44FC5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6-Thread-Sync-Interlocked", "6-Thread-Sync-Interlocked\6-Thread-Sync-Interlocked.csproj", "{E1F687B7-9910-49DA-AA3E-CE5218ECE118}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{D45E5257-30E8-49A9-97D9-679020D44FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D45E5257-30E8-49A9-97D9-679020D44FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D45E5257-30E8-49A9-97D9-679020D44FC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1F687B7-9910-49DA-AA3E-CE5218ECE118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1F687B7-9910-49DA-AA3E-CE5218ECE118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1F687B7-9910-49DA-AA3E-CE5218ECE118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1F687B7-9910-49DA-AA3E-CE5218ECE118}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
