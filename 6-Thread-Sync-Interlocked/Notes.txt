@@ -1,0 +1,27 @@
+Interlocked sınıfı C# dilinde multithreading yaklaşımı sergilenirken paylaşılan değişkenlere
+güvenli bir şekilde erişimi sağlamak için kullanılan bir sınıftır. Bu sınıf atomic işlemler gerçekleştirmek
+için tasarlanmıştır. Yani bir thread bir değişken değerini okurken yahut değiştirirken bu işlem sırasında
+diğer threadlerin müdahelesine izin vermemektedir.
+
+INTERLOCKED SINIFINDA YAYGIN KULLANILAN METOTLAR :
+
+-Increment
+-Decrement
+-Add
+-Exchange
+-CompareExchange
+
+MEMORYBARRIER ?
+
+MemoryBarrier metodu ise multi-threading yaklaşımının sergilendiği çalışmalarda bellek erişimini düzenlemek ve
+optimize edilmiş sıralamayı sağlamak için kullanılmaktadır. C# ta derleyici ve mikroişlemcinin yaptığı 
+kimi optimizasyon davranışları neticesinde kodun beklenen sıralama ile çalışmasının değişme ihtimali söz konusudur.
+Yani threadlerin belleğe erişim sıralaması değişkenlik gösterebilir. İşte bu durumlara karşın MemoryBarrier metodu ile
+kontrol ve olası sıralama sorunları çözülebilmektedir.
+
+Full Fence : Thread.MemoryBarrier() şeklinde kullanılarak tüm bellek erişimlerini sıralar. Bu komutun kullandığı 
+noktadan önceki tüm bellek erişimlerini tamamlanmış hale getirir ve bu noktadan sonraki tüm bellek erişimlerini
+engeller. Yani tüm threadler için oluşturulmuş bir çit gibidir.
+
+Half Fence: Interlocked sınıfındaki metotlar kullanılarak Half Fence oluşturulabilir. Yalnızca belirli bir değişken üzerindeki
+bellek erişimlerini düzenler.
