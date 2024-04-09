@@ -32,6 +32,7 @@
 #endregion
 #region MemoryBarrier Metodu
 int i = 0;
+Console.WriteLine("as");
 Thread writeThread = new(() =>
 {
     while (true)
