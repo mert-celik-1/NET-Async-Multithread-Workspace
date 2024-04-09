@@ -1,0 +1,16 @@
+Signalling multithread programlamada threadler arası iletişimi ve senkronizasyonu sağlamak için
+kullanılan yapılardır. Signalling bir threadin bir başka diğerine belirli bir olayın gerçekleştiğini 
+bildirmesi ve bu bildirim neticesinde yapılacak işlemin devam ettirilmesi amacıyla kullanılmaktadır.
+Bu olaylar ilgili threadin işleminin tamamlanması bir koşulun karşılanması yahut bir kaynağın serbest
+olması gibi durumlar olabilir.
+
+AutoResetEvent : Bir thread tarafından bir olay meydana geldiğinde bir başka threadin işlemini yapması
+için çalışma sergiler. Yani sadece tek bir thread bir olayın meydana gelmesini bekler.
+
+ManuelResetEvent : Signal açık duruma getirmeyi manuel yaptığımız yapıdır. Birden fazla threadin belirli bir olayın
+gerçekleşmesini beklemesini sağlamaktadır.
+
+EventWaitHandle : AutoReset ve ManuelReset kullanımlarını belli bir standarta getirmiş yapıdır.
+
+CountdownEvent : Belirli bir sayıda threadin tamamlanmasını beklemek için kullanılır.
+
