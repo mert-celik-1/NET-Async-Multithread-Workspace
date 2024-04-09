@@ -1,0 +1,17 @@
+Thread Pool Nedir ?
+
+Birden fazla threadi yönetmek ve tekrar kullanılabilir hale getirmek için tasarlanmış bir araçtır. 
+Bu sayede işlemci kaynakları daha verimli kullanılır. 
+
+Thread Poolda önceden oluşturulmuş bir grup thread barınmaktadır. Bu threadler belirli bir işlemi
+gerçekleştirmek için havuzda beklerler. Ne zaman işi tamamlarlar o taktirde havuza geri dönerler ve
+bir sonraki işi beklemeye başlarlar.
+
+Wait Handles Nedir ?
+
+Bir threadin faal olan diğer bir threadin operasyonlarının tamamlanmasını beklememizi sağlayan signalling
+yaklaşımını uygulayan bir mekanizmadır. AutoResetEvent ve ManuelResetEvent birer wait handles yapılanmalarıdır.
+
+Thread Pool açısından WaitHandles yapılanmalarını değerlendirirsek eğer bir thread ile farklı bir threadin
+signalling yaklaşımı ile aralarında haberleşme davranışı sergilemek istiyorsak eğer ThreadPool.RegisterWaitForSingleObject
+metodunu kullanabiliriz.
