@@ -1,0 +1,5 @@
+READERWRITERLOCK & READERWRITERLOCKSLIM 
+
+Özellikle birden çok threadin bir kaynağa eşzamanlı olarak erişebileceği ancak sadece tek bir threadin
+bu kaynağı değiştirebileceği senaryolarda kullanılan araçlardır. Slim olan daha hafif ve verimlidir. Ayrıca
+dispose edilebilir bir özelliğe sahiptir.
