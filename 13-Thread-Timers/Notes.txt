@@ -1,0 +1,13 @@
+Timers Nedir ?
+
+Multi-threading programlamada Timer sınıfı bir threadi belirli zamansal periyotlarda çalıştırmak için
+kullanılan bir araçtır.
+
+System.Threading.Timer ve System.Timers.Timer -> Multi-Threaded Timer
+System.Windows.Forms.Timer ve System.Windows.Threading.DispatcherTimer -> Single-Threaded Timer
+
+Single Timerlar Windows Forms Controls ve WPF elementleri için daha güvenlidir.
+
+Multi Timers birden fazla threadin eşzamanlı olarak zamanlanmasını sağlayan Timer'ı ifade etmektedir. Misal olarak
+bir uygulama içindeki threadlerin farklı periyodik zaman aralıklarında çalışması gerekebilir. Multi-Threaded Timers
+bu threadleri düzenlemek ve senkronize etmek için kullanılmaktadır.

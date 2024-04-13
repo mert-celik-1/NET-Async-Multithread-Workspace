@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-Thread-BarrierClass", "1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-Thread-ThreadLocal", "12-Thread-ThreadLocal\12-Thread-ThreadLocal.csproj", "{CDD00841-09D7-4F3B-ACA5-BCB483C59A90}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13-Thread-Timers", "13-Thread-Timers\13-Thread-Timers.csproj", "{17F371AD-026D-4B28-9AFF-BB23A416B9BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,5 +80,9 @@ Global
 		{CDD00841-09D7-4F3B-ACA5-BCB483C59A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDD00841-09D7-4F3B-ACA5-BCB483C59A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDD00841-09D7-4F3B-ACA5-BCB483C59A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17F371AD-026D-4B28-9AFF-BB23A416B9BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17F371AD-026D-4B28-9AFF-BB23A416B9BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17F371AD-026D-4B28-9AFF-BB23A416B9BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17F371AD-026D-4B28-9AFF-BB23A416B9BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
