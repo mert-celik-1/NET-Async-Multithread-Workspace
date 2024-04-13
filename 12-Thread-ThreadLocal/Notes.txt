@@ -1,0 +1,13 @@
+Thread Local Storage Nedir ?
+
+TLS her bir thread için ayrılan özel bir veri alanıdır. TLS veri bütünlüğünü koruyabilmek için 
+verilerin diğer threadlerden izole edilmesi sağlanmaktadır. Tanımlanmış veriler tüm threadler arasında paylaşılmakta
+haliyle bu veriler üzerinde yapılan herhangi bir değişiklik tüm threadler tarafından algılanarak etkilenmiş olmaktadırlar.
+Bu şekilde paylaşılan değişkenlerin aksine bir veri TLS'te yaratılırsa eğer her bir thread ilgili değişkenin kopyasına
+sahip olacaktır. Yani TLS'te oluşturulan değişkenler threadler için local davranış sergileyeceklerdir.
+
+3 yolu vardır.
+
+- ThreadStatic
+- ThreadLocal<T>
+- GetData&SetData

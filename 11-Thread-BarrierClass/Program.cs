@@ -1,4 +1,7 @@
-﻿Barrier barrier = new(3, _ => Console.WriteLine("Test"));
+﻿using System;
+using System.Threading;
+
+Barrier barrier = new(3, _ => Console.WriteLine("Test"));
 
 Thread thread1 = new(() =>
 {
