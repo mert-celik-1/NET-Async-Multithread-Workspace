@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13-Thread-Timers", "13-Thre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14-TaskClass", "14-TaskClass\14-TaskClass.csproj", "{7FCD18AF-03A7-4FE6-BF63-269ACF74FA9A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15-TaskFactory-TaskScheduler", "15-TaskFactory-TaskScheduler\15-TaskFactory-TaskScheduler.csproj", "{DEA2E345-D8AA-4858-8389-B34608C5D50A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,5 +92,9 @@ Global
 		{7FCD18AF-03A7-4FE6-BF63-269ACF74FA9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FCD18AF-03A7-4FE6-BF63-269ACF74FA9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FCD18AF-03A7-4FE6-BF63-269ACF74FA9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEA2E345-D8AA-4858-8389-B34608C5D50A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA2E345-D8AA-4858-8389-B34608C5D50A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEA2E345-D8AA-4858-8389-B34608C5D50A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEA2E345-D8AA-4858-8389-B34608C5D50A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
