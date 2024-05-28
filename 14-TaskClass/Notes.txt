@@ -1,0 +1,29 @@
+Task Sınıfı Nedir ? 
+C# dilinde asenkron işlemleri temsil etmek için kullanılan bir sınıftır.
+
+TASK
+- Asenkron programlamada kullanılır
+- Task async ve await keywordleriyle birlikte modern C# dilinde daha kolay kullanım sağlar
+- .NET tarafından sağlanan otomatize bir yönetime sahiptir. Thread pool kullanarak threadleri daha etkin bir şekilde yönetebilir
+- Asenkron süreçlerde daha fazla kontrol sağlar
+- Otomatize bir yapı söz konusu olduğu için kaynakları daha etkin bir şekilde kullanır
+
+THREAD
+- Daha düşük seviyede thread yönetimi gerektiren özel senaryolarda kullanılır
+- Doğrudan thread oluşturulmasını ve kontrol edilmesini sağlar
+- Daha fazla sistem kaynağı tüketmektedir ve işletim sistemi tarafından yönetilen thread mekanizması sağlamaktadır
+- Daha düşük seviyede paralel işlemler yahut işlemci yoğunluğu gerektiren işlemler için daha uygundur
+- Threadler doğrudan yönetildiği için kaynak kullanımı maliyetli olabilmektedir.
+
+
+- Task sınıfı altında çalışan görevler genellikle .NET'in görev paralelliği konsepti üzerine kurulmuştur. Ancak bu
+her zaman farklı thread oluşturulduğu anlamına gelmemektedir. Task.Factory.StartNew ile oluşturulan görevler Thread Pooldan
+bir thread alabilir veya yeni bir thread oluşturabilirler. Buradaki yönetim Task Scheduler tarafından optimize edilir.
+Yani Task Scheduler bir görev başlatıldığında bunu Thread Pooldaki mevcut threadlerden birinde çalıştırabileceği gibi yeni
+bir thread de oluşturabilir. Haliyle hangi threadin hangi Taskı çalıştıracağına dair bir garanti söz konusu değildir.
+
+- Task sınıfı TPL tarafından sağlanan yüksek seviyeli bir mekanizmadır ve bu mekanizmada thread yönetimi otomatik olarak ele alınmaktadır.
+Dolayısıyla Task sınıfı için Thread Poolun daha etkili bir şekilde kullanılmasına olanak tanıyan modern ve esnek bir 
+yaklaşımdır diyebiliriz. Ancak belirli durumlarda ihtiyaçlara göre doğrudan Thread sınıfını kullanmak daha uygun olabilir.
+Özellikle belirli bir threadi yönetme ihtiyacı varsa veya daha düşük seviyeli bir kontrol isteniyorsa Thread kullanılabilir.
+Ancak bu yaklaşım günümüzde asenkron programlama süreçlerinde TPL ve Task sınıfına karşın daha az tercih edilmektedir.
