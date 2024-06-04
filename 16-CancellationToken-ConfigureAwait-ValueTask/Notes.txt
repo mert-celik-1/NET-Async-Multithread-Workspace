@@ -1,0 +1,29 @@
+ConfigureAwait ?
+
+async ve await keywordleri ile kullanılan bu metod, asenkron bir işlemin tamamlanmasından sonra hangi bağlamda
+devam edeceğini belirlemeye yarayan bir metottur. Yani bu metot asenkron bir metodu çağıran thread ve çalıştıran
+thread arasındaki ilişki üzerinde kontrol sağlamak için kullanılır.
+
+ConfigureAwait(false) : Context değiştirme maliyetini azaltarak performans iyileştirmesi sağlamaktadır. Özellikle UI
+uygulamalarında UI threadi boş tutmak ve diğer threadlerin daha verimli çalışmasını sağlamak için tercih edilir.
+Bunun dışında Net Core uygulamalarında awaitten sonra devam eden kodun çağrıldığı threadde çalışmasını beklemek
+ister istemez deadlock'a neden olabilir. İşte bu durumlardan kaçınmak için ConfigureAwait(false) kullanılır. Devam
+eden kodun çağrıldığı contentten bağımsız olarak çalışmasını sağlar. Bu genellikle performans iyileştirmesi ve 
+deadlockları önlemek için kullanılır.
+
+ConfigureAwait(true) : Devam eden kodun çağrıldığı contextte çalışmasını sağlar.
+
+
+CancellationToken & CancellationTokenSource ?
+
+CancellationToken başlatılmış bir asenkron işlemi iptal etmek için kullanılan bir sınıftır. CancellationTokenSource ise
+bir veya birden fazla CancellationToken oluşturmak ve iptali tetiklemek için kullanılan sınıftır.
+
+
+Task & ValueTask
+
+Task yapısal olarak bir sınıftır. Dolayısıyla bir referans tipidir ve bu nedenle bellekte heap'te saklanır ve garbage
+collector tarafından yönetilir.
+ValueTask ise Task'ın aksine kısa süreli veya düşük gecikme süreli işlemler için performans iyileştirmesi sağlamak
+amacıyla geliştirilmiş bir veri tipidir. Bir işlemin sonucunu döndürmek için daha az bellek tahsisi gerektirir ve stack'de
+saklanır. Çünkü yapısal olarak bir struct'tır

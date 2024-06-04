@@ -30,6 +30,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14-TaskClass", "14-TaskClas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15-TaskFactory-TaskScheduler", "15-TaskFactory-TaskScheduler\15-TaskFactory-TaskScheduler.csproj", "{DEA2E345-D8AA-4858-8389-B34608C5D50A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16-CancellationToken-ConfigureAwait-ValueTask", "16-CancellationToken-ConfigureAwait-ValueTask\16-CancellationToken-ConfigureAwait-ValueTask.csproj", "{3A4E90A5-96AF-48DF-BB99-8072E645AD50}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -96,5 +98,9 @@ Global
 		{DEA2E345-D8AA-4858-8389-B34608C5D50A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEA2E345-D8AA-4858-8389-B34608C5D50A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEA2E345-D8AA-4858-8389-B34608C5D50A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A4E90A5-96AF-48DF-BB99-8072E645AD50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A4E90A5-96AF-48DF-BB99-8072E645AD50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A4E90A5-96AF-48DF-BB99-8072E645AD50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A4E90A5-96AF-48DF-BB99-8072E645AD50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
