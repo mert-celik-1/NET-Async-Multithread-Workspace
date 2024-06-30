@@ -1,0 +1,5 @@
+Concurrent Collections birden fazla threadin aynı anda güvenli bir şekilde erişebilmesi ve işlem yapabilmesi için tasarlanmış
+koleksiyonlardır. Normal koleksiyonlar tek threadde işlenmeye yönelik tasarlanmışlardır. Haliyle multithreading yahut asenkron
+programlama süreçlerinde senkronizasyon sorunlarına yol açabilirler. CC ise içlerinde gerekli locking ve senkronizasyon mekanizmaları
+barındıran asenkron işlemlere uygun tasarıma sahiptirler. Ayrıca normal koleksiyonlara nazaran yüksek performans gösterebilmektedirler.
+
