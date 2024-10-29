@@ -36,6 +36,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17-ConcurrentCollections", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18-Channels", "18-Channels\18-Channels.csproj", "{F08CA00A-B73A-4663-9548-BC774A920D6B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19-StructuredConcurrency", "19-StructuredConcurrency\19-StructuredConcurrency.csproj", "{57F4E436-FCA9-4BE1-8BD4-A9FE58FDF40A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -114,5 +116,9 @@ Global
 		{F08CA00A-B73A-4663-9548-BC774A920D6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F08CA00A-B73A-4663-9548-BC774A920D6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F08CA00A-B73A-4663-9548-BC774A920D6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57F4E436-FCA9-4BE1-8BD4-A9FE58FDF40A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57F4E436-FCA9-4BE1-8BD4-A9FE58FDF40A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57F4E436-FCA9-4BE1-8BD4-A9FE58FDF40A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57F4E436-FCA9-4BE1-8BD4-A9FE58FDF40A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

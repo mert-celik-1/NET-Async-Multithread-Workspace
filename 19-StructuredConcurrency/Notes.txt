@@ -1,0 +1,6 @@
+SC asenkron programlama süreçlerinde daha güvenli ve yönetilebilir olmasını sağlamak için kullanılan bir prensiptir.
+Esasında bu fikir asenkron operasyonların (Task veya Threadlerin) belirli bir kapsamda (scope) tanımlanması ve bu kapsamdan
+çıktıklarında tamamlanmalarını garanti etmeye dayanmaktadır. Bu sayede belirsiz ve kontrolsüz çalışan görevler yerine başlatılan
+her görev belirli bir yaşam döngüsüne sahiptir ve programın mantığı daha kolay takip edilebilir hale gelir. C# programlama dilinde
+Task yahut async&await modeli structured concurrency'e benzer bir deneyim sunmaktadır. Yani Tasklar bir metot içerisinde tanımlanır ve
+tüm asenkron operasyon bu metot içersinde gerçekleştirilir. Ta ki bu metot tamamlanana kadar
