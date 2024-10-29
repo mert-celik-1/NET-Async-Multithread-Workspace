@@ -34,6 +34,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16-CancellationToken-Config
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17-ConcurrentCollections", "17-ConcurrentCollections\17-ConcurrentCollections.csproj", "{5DBEC1CA-8BE4-4A5C-A1B8-08261FB4CEB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18-Channels", "18-Channels\18-Channels.csproj", "{F08CA00A-B73A-4663-9548-BC774A920D6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -108,5 +110,9 @@ Global
 		{5DBEC1CA-8BE4-4A5C-A1B8-08261FB4CEB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DBEC1CA-8BE4-4A5C-A1B8-08261FB4CEB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DBEC1CA-8BE4-4A5C-A1B8-08261FB4CEB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F08CA00A-B73A-4663-9548-BC774A920D6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F08CA00A-B73A-4663-9548-BC774A920D6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F08CA00A-B73A-4663-9548-BC774A920D6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F08CA00A-B73A-4663-9548-BC774A920D6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

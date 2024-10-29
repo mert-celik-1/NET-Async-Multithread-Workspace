@@ -1,0 +1,12 @@
+Channels producers ve consumers arasında asenkron bir şekilde veri aktarımı yapabilmek için kullanılan bir senkronizasyon aracıdır.
+Channels ile veri üretimi ve tüketimi arasında bir tampon oluşturulabilir ve bu sayede veri kaynağı ve veri işleme arasındaki senkronizasyon
+sorunları daha etkin bir şekilde yönetilebilir.
+
+Üretici de tüketici de asenkron bir şekilde bu verileri işlerler. Yani bir threadden diğer threade asenkron veri aktarımı gerçekleşir.
+
+Sınırlama (Bounding)
+
+- Eğer kapasitesi belirlenmiş bir Channel oluşturmak istiyorsanız Channel.CreateBounded fonksiyonu yok eğer herhangi bir sayıda 
+reader ve writer'ın söz konusu olacağı bir çalışma yapılacaksa da burada Channel.CreateUnbounded fonksiyonu kullanılmalıdır.
+
+BoundedChannels'ta sınıra ulaşıldığında default olarak kanalda alan açılana kadar üretici asenkron olarak bekletilir.
